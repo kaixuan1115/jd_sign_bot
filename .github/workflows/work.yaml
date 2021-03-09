@@ -39,3 +39,4 @@ jobs:
                   if [ -e cookies.json ]; then cp cookies.json ~/cookies.json; fi
                   JD_COOKIE="$(cat cookies_str.txt)" node app.js
                   cat result.txt
+                  JD_COOKIE="$(cat cookies_str.txt)" node extra.js
