@@ -19,7 +19,7 @@ async function changeFile (fileName) {
 }
 
 const CRONTAB = {
-	'./extra/jd_global.js': /2021-03/
+	// './extra/jd_global.js': /2021-03/
 };
 
 async function start() {
